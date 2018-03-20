@@ -1,0 +1,14 @@
+.container{
+    margin: 2px;
+    width:155px;
+    height:155px;
+    background-color: gray;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.container:hover{
+   transform: scale(1.02);
+   transition: transform 0.3s;
+}

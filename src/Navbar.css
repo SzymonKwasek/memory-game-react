@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.nav li{
+    list-style: none;
+    padding-right: 30px;
+}
+
+.nav header{
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 30px;
+    text-shadow: -1px 2px 4px rgba(200,255,255,0.4)
+}
+button{
+    border: none;
+    background-color:rgba(0,0,0,0); 
+    font-weight: 600;
+    color: white;
+    border-left: 1px solid black;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    text-shadow: 1px 2px 4px rgba(100,255,255,0.4)
+}
